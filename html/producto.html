@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="\css/styles.css">
+</head>
+<body>
+    <header class="haeder">
+        <!--el logotipo simpre te debe llevar a la pagina principal-->
+        <a href="\index.html">
+            <img class="header__logo" src="\img/newlogo.png" alt="Logotipo"> <!--toda imagen debe llevar un texto alternativo orientacion y diseño-->
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="\index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor2">
+        <h1 class="contenedor__titulo">Laptop</h1>
+    
+        <div class="camisa">
+            <img class="camisa__imagen" src="\img/agotado.jpg" alt="imagen del producto">
+            <div class="camisa__contenido">
+                <p>Nam vitae neque nulla. Ut sed arcu non eros interdum dapibus ac nec nunc. Proin orci nisl, 
+                    molestie eu metus quis, fermentum ultricies nunc.</p>
+                <form class="formulario">                  
+                   <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                   <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">FrontEnd Store - Todos los derechos reservados 2022.</p>
+    </footer>
+    
+</body> 
+</html>
